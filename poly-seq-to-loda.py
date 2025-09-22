@@ -289,7 +289,7 @@ for i in range(0,len(t)):
   for j in range(0,len(s[i])):
     s[i][j]=int(s[i][j])
   if len(s[i]) >= 11:
-    q = to_loda_first(s[i],max_len = (len(s[i])-1)*7/10,max_num = 1e200,offset = offset)
+    q = to_loda_first(s[i],max_len = (len(s[i])-1)*1/2,max_num = 1e200,offset = offset)
     if q != '':
       v8.write(q)
       v8.flush()
